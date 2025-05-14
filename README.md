@@ -28,15 +28,15 @@ The mod can be configured through the Resonite mod settings menu:
 
 ## How it Works
 
-The mod hooks into Resonite's texture import process and disables mipmap generation for image files. It does this by:
+The mod hooks into Resonite's texture import process and disables mipmap for image files. It does this by:
 
 1. Detecting image file types through their file signatures
-2. Setting the `generateMipMaps` parameter to false during the import process
+2. Setting the `MipMaps` parameter in the Texture2D Component to false during the import process
 3. Preserving all other import functionality - Creating a Steam Screenshot/Pixel Art/Sprite/360 Photo/Stereo Photo/LUT/Raw etc.
 
 This allows you to:
 - Save memory by not generating mipmaps for images that are Temporary Images that are not meant for saving in World/Avatars/Spawnables
-- Still allows users to enable mipmaps manually after import in case you forgot to turn off the mod - In the Static2D Component
+- Still allows users to enable mipmaps manually after import in case you forgot to turn off the mod - In the Texture2D Component
 
 ## Credits
 
