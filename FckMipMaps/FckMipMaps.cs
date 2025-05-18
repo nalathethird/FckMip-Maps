@@ -22,7 +22,7 @@ namespace FckMipMaps {
 		public override string Name => "FckMipMaps";
 		public override string Author => "Zeia Nala";
 		public override string Version => VERSION_CONSTANT;
-		public override string Link => "https://github.com/tgrafk12/FckMip-Maps";
+		public override string Link => "https://github.com/nalathethird/FckMip-Maps";
 
 		internal static FckMipMaps Instance = null!;
 		internal static ModConfiguration config = null!;
